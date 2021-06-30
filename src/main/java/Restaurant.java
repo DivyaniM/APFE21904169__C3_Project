@@ -90,6 +90,7 @@ public class Restaurant {
             orderedPrice += Double.valueOf(item.getPrice());
 
         }
+
         return orderedPrice;
 
 
