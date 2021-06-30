@@ -84,15 +84,15 @@ public class Restaurant {
 
     public Double orderPrice(List<Item> itemList) {
 
-//         List<Item> selectedMenuItems = new ArrayList<>();
-//         double orderedPrice = 0.0;
-//        for (Item item:itemList) {
-//            orderedPrice += Double.valueOf(item.getPrice());
-//
-//        }
-//        return orderedPrice;
+         List<Item> selectedMenuItems = new ArrayList<>();
+         double orderedPrice = 0.0;
+        for (Item item:itemList) {
+            orderedPrice += Double.valueOf(item.getPrice());
 
-        return null;
+        }
+        return orderedPrice;
+
+
 
     }
 
